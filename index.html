@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Share Tech Mono Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body class="p-4 md:p-8">
+
+
+    <div class="hud-icon-wrap">
+        <img src="icon.png" alt="Icon" class="hud-icon-img">
+
+        <div class="watching-text">
+            WATCHING YOU.....
+        </div>
+    </div>
+    <!-- Background Video -->
+    <video autoplay muted loop id="bg-video" class="fixed top-0 left-0 w-full h-full object-cover z-0">
+        <source src="background.mp4" type="video/mp4">
+    </video>
+
+
+    <div class="nav-com-frame">
+
+
+        <nav class="hud-nav command-stack">
+            <a href="#home" class="hud-cmd active">
+                <span class="cmd-text">▸ HOME</span>
+            </a>
+
+            <a href="#about" class="hud-cmd">
+                <span class="cmd-text">▸ EDUCATION</span>
+            </a>
+
+            <a href="#skills" class="hud-cmd">
+                <span class="cmd-text">▸ SKILLS</span>
+
+            </a>
+
+            <a href="#services" class="hud-cmd">
+                <span class="cmd-text">▸ SERVICES</span>
+
+            </a>
+
+            <a href="#portfolio" class="hud-cmd">
+                <span class="cmd-text">▸ PROJECTS</span>
+
+            </a>
+
+            <a href="#contact" class="hud-cmd">
+                <span class="cmd-text">▸ CONTACT</span>
+            </a>
+
+            <a href="https://ccrwritesforyou.blogspot.com/" target="_blank" class="hud-cmd">
+                <span class="cmd-text">▸ BLOG</span>
+            </a>
+        </nav>
+    </div>
+    <div class="hero-grid">
+
+        <main class="w-full mx-auto relative z-10">
+
+            <section id="home" class="full-page-section ">
+
+                <div class="hud-panel p-6 md:p-10 home-hud max-w-6xl w-full mx-auto backend-panel-style">
+
+                    <div class="grid grid-cols-1 md:grid-cols-7 gap-6 items-start">
+
+
+                        <div
+                            class="md:col-span-2 flex flex-col items-center md:items-start text-center md:text-left space-y-4">
+
+
+                            <div class="profile-frame relative">
+                                <img src="profile.png" alt="User Profile"
+                                    class="w-28 h-28 md:w-32 md:h-32 object-cover rounded-full border border-cyan-400 saturate-150" />
+
+                                <span class="absolute -bottom-1 -right-2 flex h-5 w-5 items-center justify-center">
+                                    <span
+                                        class="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
+                                    <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-cyan-500"></span>
+                                </span>
+                            </div>
+
+                            <!-- TYPING TEXT -->
+                            <div class="mt-3 flex justify-center w-full">
+                                <p class="text-lg font-bold tracking-wider text-cyan-400 font-mono text-center">
+                                    <span id="typed"></span>
+                                </p>
+                            </div>
+                            <!-- SOCIAL ICONS -->
+
+                            <div id="social-section" class=" w-full flex justify-center mt-4">
+
+                                <div class="flex items-center space-x-6 text-2xl">
+
+                                    <a href="https://www.facebook.com/profile.php?id=100087162235776" target="_blank"
+                                        class="accent-color hover:text-white transition duration-300">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+
+                                    <a href="https://github.com/shishir222" target="_blank"
+                                        class="accent-color hover:text-white transition duration-300">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+
+                                    <a href="https://www.instagram.com/shishirchalise43/?hl=en" target="_blank"
+                                        class="accent-color hover:text-white transition duration-300">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+
+                                    <a href="https://wa.me/9779819485278" target="_blank"
+                                        class="accent-color hover:text-white transition duration-300">
+                                        <i class="fab fa-whatsapp"></i>
+                                    </a>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- INFO PANEL (smaller + tighter) -->
+                        <div
+                            class="md:col-span-5 hud-panel p-5 md:p-6 rounded-lg border border-cyan-500/20 bg-cyan-950/10 backdrop-blur-md relative">
+
+                            <!-- CORNERS -->
+                            <div class="absolute top-0 left-0 w-3 h-3 border-t-2 border-l-2 border-cyan-400"></div>
+                            <div class="absolute top-0 right-0 w-3 h-3 border-t-2 border-r-2 border-cyan-400"></div>
+                            <div class="absolute bottom-0 left-0 w-3 h-3 border-b-2 border-l-2 border-cyan-400"></div>
+                            <div class="absolute bottom-0 right-0 w-3 h-3 border-b-2 border-r-2 border-cyan-400"></div>
+
+                            <div class="hud-data space-y-3 font-mono text-sm md:text-base">
+
+                                <div class="flex gap-2">
+                                    <span class="text-cyan-400/80">■ NAME:</span>
+                                    <span class="text-gray-200 font-semibold">Shishir Chalise</span>
+                                </div>
+
+                                <div class="flex gap-2">
+                                    <span class="text-cyan-400/80">■ ADDRESS:</span>
+                                    <span class="text-gray-200">Butwal</span>
+                                </div>
+
+                                <div class="flex gap-2">
+                                    <span class="text-cyan-400/80">■ SPECIALIZATION:</span>
+                                    <span class="text-gray-200">Full Stack Development</span>
+                                </div>
+
+                                <div class="flex items-start gap-2">
+                                    <span class="text-cyan-400/80 flex-shrink-0">■ PASSION:</span>
+                                    <span class="text-gray-300 leading-relaxed">
+                                        Creating functional & meaningful digital experiences.
+                                    </span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+    </div>
+
+    </section>
+
+    </main>
+
+    </div>
+
+
+    <section id="about" class="edu-section">
+        <div class="hud-panel">
+
+            <h2 class="title">EDUCATION </h2>
+            <p class="subtitle">MY ACADEMIC JOURNEY SO FAR</p>
+
+            <div class="edu-flow">
+
+                <!-- SVG CURVE -->
+                <svg viewBox="0 0 1000 300" class="edu-svg">
+                    <path class="edu-path" d="M100,200
+             C250,50 350,350 500,200
+             S750,50 900,200" />
+
+                    <!-- ARROW ATTACHED TO PATH END -->
+                    <text x="920" y="200" class="goes-text">GOES ON ➜</text>
+                </svg>
+
+                <!-- NODE 1 (DOWN) -->
+                <div class="node down" style="left:100px; top:200px;">
+                    <div class="dot"></div>
+                    <div class="card">
+                        <h3>Pragati Secondary School</h3>
+                        <p>SEE</p>
+                    </div>
+                </div>
+
+                <!-- NODE 2 (UP) -->
+                <div class="node up" style="left:400px; top:110px;">
+                    <div class="dot"></div>
+                    <div class="card">
+                        <h3>Kanti Secondary School</h3>
+                        <p>+2 Level • Science Stream</p>
+                    </div>
+                </div>
+
+                <!-- NODE 3 (DOWN) -->
+                <div class="node down" style="left:770px; top:200px;">
+                    <div class="dot"></div>
+                    <div class="card">
+                        <h3>Butwal Multiple Campus</h3>
+                        <p>Bachelor (CSIT) • Running</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+
+        <div class="skills-wrap">
+
+            <!-- BACKGROUND LINE SVG -->
+            <svg class="skill-lines" viewBox="0 0 1000 300" preserveAspectRatio="none">
+                <path id="line-path"></path>
+            </svg>
+
+            <!-- HEX GRID -->
+            <div class="hex-row">
+
+                <!-- NODE 1 -->
+                <div class="hex-node" data-x="70" data-y="120">
+                    <div class="hex">
+                        <svg viewBox="0 0 100 100">
+                            <path class="hex-shape" d="M50 2 L95 25 L95 75 L50 98 L5 75 L5 25 Z" />
+                            <circle class="progress" data-value="90"></circle>
+                        </svg>
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+                </div>
+
+                <!-- NODE 2 -->
+                <div class="hex-node" data-x="210" data-y="200">
+                    <div class="hex">
+                        <svg viewBox="0 0 100 100">
+                            <path class="hex-shape" d="M50 2 L95 25 L95 75 L50 98 L5 75 L5 25 Z" />
+                            <circle class="progress" data-value="85"></circle>
+                        </svg>
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS</span>
+                    </div>
+                </div>
+
+                <!-- NODE 3 -->
+                <div class="hex-node" data-x="350" data-y="120">
+                    <div class="hex">
+                        <svg viewBox="0 0 100 100">
+                            <path class="hex-shape" d="M50 2 L95 25 L95 75 L50 98 L5 75 L5 25 Z" />
+                            <circle class="progress" data-value="65"></circle>
+                        </svg>
+                        <i class="fab fa-js-square"></i>
+                        <span>JS</span>
+                    </div>
+                </div>
+
+                <!-- NODE 4 -->
+                <div class="hex-node" data-x="490" data-y="200">
+                    <div class="hex">
+                        <svg viewBox="0 0 100 100">
+                            <path class="hex-shape" d="M50 2 L95 25 L95 75 L50 98 L5 75 L5 25 Z" />
+                            <circle class="progress" data-value="50"></circle>
+                        </svg>
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                </div>
+
+                <!-- NODE 5 -->
+                <div class="hex-node" data-x="630" data-y="120">
+                    <div class="hex">
+                        <svg viewBox="0 0 100 100">
+                            <path class="hex-shape" d="M50 2 L95 25 L95 75 L50 98 L5 75 L5 25 Z" />
+                            <circle class="progress" data-value="75"></circle>
+                        </svg>
+                        <i class="fas fa-palette"></i>
+                        <span>Design</span>
+                    </div>
+                </div>
+                <!-- NODE 6 -->
+                <div class="hex-node" data-x="70" data-y="330">
+                    <div class="hex">
+                        <svg viewBox="0 0 100 100">
+                            <path class="hex-shape" d="M50 2 L95 25 L95 75 L50 98 L5 75 L5 25 Z" />
+                            <circle class="progress" data-value="70"></circle>
+                        </svg>
+                        <i class="fas fa-copyright"></i>
+                        <span>C</span>
+                    </div>
+                </div>
+
+                <!-- NODE 7 -->
+                <div class="hex-node" data-x="210" data-y="410">
+                    <div class="hex">
+                        <svg viewBox="0 0 100 100">
+                            <path class="hex-shape" d="M50 2 L95 25 L95 75 L50 98 L5 75 L5 25 Z" />
+                            <circle class="progress" data-value="75"></circle>
+                        </svg>
+                        <i class="fas fa-database"></i>
+                        <span>SQL</span>
+                    </div>
+                </div>
+
+                <!-- NODE 8 -->
+                <div class="hex-node" data-x="350" data-y="330">
+                    <div class="hex">
+                        <svg viewBox="0 0 100 100">
+                            <path class="hex-shape" d="M50 2 L95 25 L95 75 L50 98 L5 75 L5 25 Z" />
+                            <circle class="progress" data-value="60"></circle>
+                        </svg>
+                        <i class="fab fa-react"></i>
+                        <span>React</span>
+                    </div>
+                </div>
+
+                <!-- NODE 9 -->
+                <div class="hex-node" data-x="490" data-y="410">
+                    <div class="hex">
+                        <svg viewBox="0 0 100 100">
+                            <path class="hex-shape" d="M50 2 L95 25 L95 75 L50 98 L5 75 L5 25 Z" />
+                            <circle class="progress" data-value="80"></circle>
+                        </svg>
+                        <i class="fab fa-linux"></i>
+                        <span>Linux</span>
+                    </div>
+                </div>
+                <!-- NODE 10 -->
+                <div class="hex-node" data-x="630" data-y="330">
+                    <div class="hex">
+                        <svg viewBox="0 0 100 100">
+                            <path class="hex-shape" d="M50 2 L95 25 L95 75 L50 98 L5 75 L5 25 Z" />
+                            <circle class="progress" data-value="65"></circle>
+                        </svg>
+                        <i class="fas fa-code"></i>
+                        <span>C++</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="services" class="full-page-section">
+        <div class="service-wrapper">
+
+            <div class="service-constellation">
+
+                <!-- SVG CONNECTION SYSTEM -->
+                <svg class="service-lines" viewBox="0 0 420 420">
+                    <!-- TOP -->
+                    <line x1="210" y1="150" x2="210" y2="20" class="service-path" />
+
+                    <!-- RIGHT -->
+                    <line x1="270" y1="210" x2="380" y2="210" class="service-path" />
+
+                    <!-- LEFT -->
+                    <line x1="150" y1="210" x2="40" y2="210" class="service-path" />
+
+                    <!-- BOTTOM RIGHT -->
+                    <line x1="255" y1="255" x2="360" y2="360" class="service-path" />
+
+                    <!-- BOTTOM LEFT -->
+                    <line x1="165" y1="255" x2="60" y2="360" class="service-path" />
+
+                </svg>
+
+                <!-- CENTER -->
+                <div class="service-core">
+                    <span class="core-big">SERVICES</span>
+                </div>
+
+                <!-- NODES -->
+                <div class="service-node top">
+                    <i class="fas fa-desktop"></i>
+                    <span>WEB DESIGN</span>
+                </div>
+
+                <div class="service-node right">
+                    <i class="fas fa-code"></i>
+                    <span>FULL STACK</span>
+                </div>
+
+                <div class="service-node bottom-right">
+                    <i class="fas fa-paint-brush"></i>
+                    <span>GRAPHICS</span>
+                </div>
+
+                <div class="service-node bottom-left">
+                    <i class="fas fa-pen-nib"></i>
+                    <span>BRANDING</span>
+                </div>
+
+                <div class="service-node left">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>APP DEVELOPMENT</span>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="full-page-section">
+        <div class="hud-panel p-7 md:p-10">
+            <h2 class="section-title mb-4">PROJECTS</h2>
+            <div class="data-stream text-sm space-y-6 data-stream-text">
+
+                <!-- MAUSAM -->
+                <div class="p-4 border-b border-gray-700 hover:bg-gray-800 transition">
+                    <div class="flex flex-col md:flex-row gap-4">
+
+                        <img src="images/mausam-preview.png" alt="MAUSAM"
+                            class="w-full md:w-56 h-36 object-cover rounded-lg border border-gray-700">
+
+                        <div class="flex-1">
+                            <p class="accent-color font-semibold text-base">MAUSAM</p>
+
+                            <p class="text-gray-400 mt-1">
+                                A web-based Weather and GIS application for Nepal that provides real-time
+                                weather data with municipality-level location selection and interactive map
+                                visualization.
+                            </p>
+
+                            <div class="mt-3 flex flex-wrap items-center gap-3">
+                                <a href="https://nepal-weather.vercel.app/" target="_blank"
+                                    class="text-green-400 hover:underline">
+                                    Live Demo
+                                </a>
+
+                                <a href="https://github.com/shishir222/NEPAL_WEATHER.git" target="_blank"
+                                    class="text-blue-400 hover:underline">
+                                    GitHub
+                                </a>
+
+                                <span class="text-xs text-blue-400 ml-auto">
+                                    [JavaScript | GIS | Weather API]
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- MAUSAM AGRO VET -->
+                <div class="p-4 border-b border-gray-700 hover:bg-gray-800 transition">
+                    <div class="flex flex-col md:flex-row gap-4">
+
+                        <img src="images/agrovet-preview.png" alt="Mausam Agro Vet"
+                            class="w-full md:w-56 h-36 object-cover rounded-lg border border-gray-700">
+
+                        <div class="flex-1">
+                            <p class="accent-color font-semibold text-base">Mausam Agro Vet</p>
+
+                            <p class="text-gray-400 mt-1">
+                                A responsive business website developed for an Agro Vet service, featuring
+                                modern UI design and clear service presentation.
+                            </p>
+
+                            <div class="mt-3 flex flex-wrap items-center gap-3">
+                                <a href="https://mausamagrovet.vercel.app/" target="_blank"
+                                    class="text-green-400 hover:underline">
+                                    Live Demo
+                                </a>
+
+                                <a href="https://github.com/shishir222/VET_PROJECT" target="_blank"
+                                    class="text-blue-400 hover:underline">
+                                    GitHub
+                                </a>
+
+                                <span class="text-xs text-blue-400 ml-auto">
+                                    [HTML | CSS | JavaScript]
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- FACTO -->
+                <div class="p-4 hover:bg-gray-800 transition">
+                    <div class="flex flex-col md:flex-row gap-4">
+
+                        <img src="images/facto-preview.png" alt="FACTO"
+                            class="w-full md:w-56 h-36 object-cover rounded-lg border border-gray-700">
+
+                        <div class="flex-1">
+                            <p class="accent-color font-semibold text-base">FACTO</p>
+
+                            <p class="text-gray-400 mt-1">
+                                A mobile-first web application that delivers random facts through an engaging
+                                swipeable card interface designed for quick learning.
+                            </p>
+
+                            <div class="mt-3 flex flex-wrap items-center gap-3">
+                                <a href="https://facto-green.vercel.app/" target="_blank"
+                                    class="text-green-400 hover:underline">
+                                    Live Demo
+                                </a>
+
+                                <a href="https://github.com/shishir222/FACTO" target="_blank"
+                                    class="text-blue-400 hover:underline">
+                                    GitHub
+                                </a>
+
+                                <span class="text-xs text-blue-400 ml-auto">
+                                    [JavaScript | HTML/CSS]
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="full-page-section flex flex-col items-center justify-center">
+        <div class="hud-panel p-6 md:p-10">
+            <h2 class="section-title mb-4">CONTACT</h2>
+            <div class="mb-6 space-y-4 text-base">
+                <div class="flex items-center justify-center">
+                    <i class="fas fa-envelope accent-color w-8 text-2xl"></i>
+                    <span class="text-gray-400 mr-3">EMAIL:</span>
+                    <a href="mailto:shishirchalise255@gmail.com"
+                        class="ml-2 accent-color hover:text-white text-lg">shishirchalise255@gmail.com</a>
+                </div>
+                <div class="flex items-center justify-center">
+                    <i class="fa-solid fa-tower-broadcast accent-color w-8 text-2xl animate-pulse"></i>
+                    <span class="text-gray-400 mr-3 tracking-widest text-sm">CONNECT WITH ME </span>
+
+                </div>
+            </div>
+            <div class=" mt-10 flex justify-center space-x-10 text-4xl">
+                <a href="https://www.facebook.com/profile.php?id=100087162235776" target="_blank"
+                    class="accent-color hover:text-white transition duration-300">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/shishirchalise43/?hl=en" target="_blank"
+                    class="accent-color hover:text-white transition duration-300">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://wa.me/9779819485278" target="_blank"
+                    class="accent-color hover:text-white transition duration-300">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+            <div style="text-align: center;">
+                <div id="krishna-mantra"
+                    style="display: inline-block; margin-top: 2.5rem; text-align: center; font-size: 0.875rem; color: #6b7280;">
+                    कृष्णाय वासुदेवाय हरये परमात्मने ।<br> प्रणतः क्लेशनाशाय गोविंदाय नमो नमः ।।
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer style="text-align: center; width: 100%; padding: 20px 0;">
+        &copy; 2025 Shishir Chalise | ALL RIGHTS RESERVED
+    </footer>
+    </main>
+
+    <button id="soundButton" class="sound-hud-btn">
+        <i class="fas fa-volume-up"></i>
+    </button>
+    <!-- Virus sound file -->
+    <audio id="virusSound" loop>
+        <source src="virussound1.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Virus cursor -->
+    <img src="virus.png" id="virus" alt="virus">
+    <div id="neon-cursor"></div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+
+            if (window.typedInstance) return;
+
+            window.typedInstance = new Typed("#typed", {
+                strings: ["DEVELOPER", "DESIGNER", "ENTREPRENEUR"],
+                typeSpeed: 80,
+                backSpeed: 60,
+                loop: true,
+                showCursor: true,
+                cursorChar: "|"
+            });
+
+        });
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
